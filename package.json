@@ -11,7 +11,8 @@
     "static": "next build && next export && touch ./out/.nojekyll && echo 'barayuda.web.id' > ./out/CNAME",
     "serve-static": "serve out",
     "deploy": "gh-pages -d out -t true",
-    "postbuild": "next-on-netlify"
+    "postbuild": "next-on-netlify",
+    "export": "next export"
   },
   "dependencies": {
     "next": "^9.4.1",
