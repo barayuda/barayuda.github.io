@@ -10,12 +10,14 @@
     "start": "next start",
     "static": "next build && next export && touch ./out/.nojekyll && echo 'barayuda.web.id' > ./out/CNAME",
     "serve-static": "serve out",
-    "deploy": "gh-pages -d out -t true"
+    "deploy": "gh-pages -d out -t true",
+    "postbuild": "next-on-netlify"
   },
   "dependencies": {
     "next": "^9.4.1",
     "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "next-on-netlify": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
