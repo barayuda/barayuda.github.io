@@ -20,15 +20,6 @@ const Blogs = () => (
   <section>
     <SectionTitle>Blog (in Bahasa)</SectionTitle>
 
-    <Blog
-      name="text2speech-timer-app"
-      href="https://github.com/barayuda/text2speech-timer-app"
-      icon={<i className="fas fa-fw mr-1 fa-edit"></i>}
-    >
-      Fun Blog with electron and vue
-    </Blog>
-
-
     <p>
       <i className="fas fa-fw mr-1 fa-hourglass-half"></i>
       Read more in <a href="/blog" className="link">Blog...</a>
