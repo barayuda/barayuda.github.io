@@ -7,7 +7,7 @@ const Experience = ({ children, title, href, company, where, when }) => (
     <div>
       <h5 className="font-medium">{title}</h5>
       <p className="small">
-        <a href={href} target="_blank" rel="noopener" className="link mr-1">
+        <a href={href} target="_blank" rel="nofollow" className="link mr-1">
           {company}
         </a>
         - {where} | {when}
@@ -30,6 +30,25 @@ const Professional = () => (
         when="Sept, 2020 - Currently"
       >
         Joined in tech team, colaborate to build Indonesia Cashless Society.
+      </Experience>
+
+      <Experience
+        company="Ogilvy Australia"
+        href="https://www.ogilvy.com.au/"
+        title="Front-end Engineer"
+        where="Bali, Indonesia (Remote Office)"
+        when="Jun, 2017 - Aug, 2019"
+      >
+        <span className="small">Australian branch of Ogilvy, A major global advertising company, clients including BMW, Cocacola, IBM, AMEX, etc.</span><br/>
+        <span className="small" style={{ textDecoration: 'underline' }}>What I do:</span><br/>
+        <span className="small">
+          • Software development for digital advertising campaign including Web Banner, landing page, interactive advertising, etc (HTML5, CSS, GreenSock Javascript).<br/>
+          • Build Banners Preview with PHP and Bootstrap 3<br/>
+          • EDM Templates (Build email HTML, working with Litmus environment)<br/>
+          • Drupal 8 (Focus on templating with Bootstrap, Webpack, jQuery, and Vue)<br/>
+          • Xamarin.Forms (Focus on XAML)<br/>
+          • Build API with NodeJS and Firebase Environment (for outsourcing project)<br/>
+        </span>
       </Experience>
     </ul>
   </section>
