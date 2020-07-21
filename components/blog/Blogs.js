@@ -6,7 +6,7 @@ const Blog = ({ children, name, href, icon }) => (
   <p className="mb-2 md:mb-0">
     <div className="inline-block">
       {icon}
-      <a target="_blank" rel="noopener" href={href} className="link">
+      <a target="_blank" rel="nofollow" href={href} className="link">
         {name}
       </a>
       ,&nbsp;
