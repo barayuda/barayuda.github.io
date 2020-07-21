@@ -40,6 +40,11 @@ const MainSocial = () => (
       <i className="far fa-fw mr-1 fa-file-alt"></i>
       Resume
     </ProfileButton>
+
+    <ProfileButton href="/blog">
+      <i className="fab fa-fw mr-1 fa-blogger-b"></i>
+      Blog (in Bahasa)
+    </ProfileButton>
   </div>
 );
 

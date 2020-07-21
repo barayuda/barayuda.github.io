@@ -7,6 +7,7 @@ import Header from "../components/profile/Header";
 import Education from "../components/profile/Education";
 import Social from "../components/profile/Social";
 import Projects from "../components/profile/Projects";
+import Blogs from "../components/blog/Blogs";
 
 function HomePage() {
   return (
@@ -31,6 +32,10 @@ function HomePage() {
           <Hr />
 
           <Projects />
+
+          <Hr />
+
+          <Blogs />
 
           <Hr />
 
