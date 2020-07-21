@@ -39,16 +39,14 @@ const Professional = () => (
         where="Bali, Indonesia (Remote Office)"
         when="Jun, 2017 - Aug, 2019"
       >
-        <span className="small">Australian branch of Ogilvy, A major global advertising company, clients including BMW, Cocacola, IBM, AMEX, etc.</span><br/>
-        <span className="small" style={{ textDecoration: 'underline' }}>What I do:</span><br/>
-        <span className="small">
-          • Software development for digital advertising campaign including Web Banner, landing page, interactive advertising, etc (HTML5, CSS, GreenSock Javascript).<br/>
-          • Build Banners Preview with PHP and Bootstrap 3<br/>
-          • EDM Templates (Build email HTML, working with Litmus environment)<br/>
-          • Drupal 8 (Focus on templating with Bootstrap, Webpack, jQuery, and Vue)<br/>
-          • Xamarin.Forms (Focus on XAML)<br/>
-          • Build API with NodeJS and Firebase Environment (for outsourcing project)<br/>
-        </span>
+        Australian branch of Ogilvy, A major global advertising company, clients including BMW, Cocacola, IBM, AMEX, etc.<br/>
+        <br/><span style={{ textDecoration: 'underline' }}>What I do:</span><br/>
+        • Software development for digital advertising campaign including Web Banner, landing page, interactive advertising, etc (HTML5, CSS, GreenSock Javascript).<br/>
+        • Build Banners Preview with PHP and Bootstrap 3<br/>
+        • EDM Templates (Build email HTML, working with Litmus environment)<br/>
+        • Drupal 8 (Focus on templating with Bootstrap, Webpack, jQuery, and Vue)<br/>
+        • Xamarin.Forms (Focus on XAML)<br/>
+        • Build API with NodeJS and Firebase Environment (for outsourcing project)<br/>
       </Experience>
     </ul>
   </section>
