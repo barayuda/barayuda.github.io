@@ -4,7 +4,6 @@ import Picture from "../components/profile/Picture";
 import MainSocial from "../components/profile/MainSocial";
 import Hr from "../components/profile/Hr";
 import Header from "../components/profile/Header";
-import Education from "../components/profile/Education";
 import Social from "../components/profile/Social";
 import Projects from "../components/profile/Projects";
 import Blogs from "../components/blog/Blogs";
@@ -24,10 +23,6 @@ function HomePage() {
 
         <div className="col-span-4 md:col-span-3">
           <Header />
-
-          <Hr />
-
-          <Education />
 
           <Hr />
 
