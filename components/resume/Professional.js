@@ -27,7 +27,7 @@ const Professional = () => (
         href="https://dana.id/"
         title="Software Developer Engineer"
         where="Jakarta, Indonesia (Remote)"
-        when="Sept, 2019 - Currently"
+        when="Sept, 2019 - Present"
       >
         Joined in tech team, colaborate to build Indonesia Cashless Society.
       </Experience>
