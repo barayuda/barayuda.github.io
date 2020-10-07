@@ -31,10 +31,10 @@ const MainSocial = () => (
       LinkedIn
     </ProfileButton>
 
-    <ProfileButton href="https://twitter.com/barayuda" external>
+    {/* <ProfileButton href="https://twitter.com/barayuda" external>
       <i className="fab fa-fw mr-1 fa-twitter"></i>
       Twitter
-    </ProfileButton>
+    </ProfileButton> */}
 
     <ProfileButton href="/resume">
       <i className="far fa-fw mr-1 fa-file-alt"></i>
