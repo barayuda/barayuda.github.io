@@ -22,12 +22,12 @@ const Social = () => (
         </a>
       </p>
 
-      <p>
+      {/* <p>
         <i className="fab fa-fw mr-1 fa-twitter"></i>
         <a target="_blank" rel="noopener" href="https://twitter.com/barayuda" className="link">
           Twitter
         </a>
-      </p>
+      </p> */}
     </div>
   </section>
 );
