@@ -22,7 +22,7 @@ const Blogs = () => (
 
     <p>
       <i className="fas fa-fw mr-1 fa-hourglass-half"></i>
-      Read more in <a href="/blog" className="link">Blog...</a>
+      Read more in <a href="/blog" className="link" rel="follow" target="_blank">My Blog</a>
     </p>
   </section>
 );
