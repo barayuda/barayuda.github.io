@@ -7,7 +7,7 @@ const Headings = ({ name, title, description }) => (
     {title && (
       <h2 className="text-3xl font-medium text-gray-700">
         <div className="inline-block">SDE,&nbsp;</div>
-        <div className="inline-block">Software Engineer.</div>
+        <div className="inline-block">Software Development Engineer.</div>
       </h2>
     )}
 
