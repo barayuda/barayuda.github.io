@@ -31,7 +31,7 @@ const Projects = () => (
     <Project
       name="e2e-test-playground"
       href="https://github.com/barayuda/e2e-test-playground"
-      icon={<i className="fas fa-fw mr-1 fa-atom"></i>}
+      icon={<i className="fas fa-fw mr-1 fa-vuejs"></i>}
     >
       E2E Testing with Team-friendly Reports
     </Project>
