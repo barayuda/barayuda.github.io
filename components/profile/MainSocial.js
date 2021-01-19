@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Link from "next/link";
 import Safe from "react-safe";
 
@@ -42,9 +42,9 @@ const MainSocial = () => (
       Blog (in Bahasa)
     </ProfileButton>
 
-    <div>
+    <Fragment>
       <Safe.script type="text/javascript" src="https://www.globalgiving.org/javascript/widget/widget.js">{`{'projectids': '49963'}`}</Safe.script>
-    </div>
+    </Fragment>
   </div>
 );
 
