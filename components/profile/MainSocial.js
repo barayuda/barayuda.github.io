@@ -1,6 +1,5 @@
 import React, { Fragment } from "react";
 import Link from "next/link";
-import Safe from "react-safe";
 
 const externalProps = { target: "_blank", rel: "noopener" };
 
@@ -42,9 +41,6 @@ const MainSocial = () => (
       Blog (in Bahasa)
     </ProfileButton>
 
-    <Fragment>
-      <Safe.script type="text/javascript" src="https://www.globalgiving.org/javascript/widget/widget.js">{`{'projectids': '49963'}`}</Safe.script>
-    </Fragment>
   </div>
 );
 
