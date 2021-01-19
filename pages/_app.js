@@ -39,12 +39,6 @@ export default class CustomApp extends App {
             rel="stylesheet"
           ></link>
           <script src="https://kit.fontawesome.com/81b62d1be5.js" async></script>
-
-          <script
-            data-ad-client="ca-pub-9124325078640083"
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-          ></script>
         </Head>
 
         <Component {...pageProps} />
