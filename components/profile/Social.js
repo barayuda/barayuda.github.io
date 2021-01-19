@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 import SectionTitle from "./SectionTitle";
 
@@ -22,12 +21,6 @@ const Social = () => (
         </a>
       </p>
 
-      {/* <p>
-        <i className="fab fa-fw mr-1 fa-twitter"></i>
-        <a target="_blank" rel="noopener" href="https://twitter.com/barayuda" className="link">
-          Twitter
-        </a>
-      </p> */}
     </div>
   </section>
 );

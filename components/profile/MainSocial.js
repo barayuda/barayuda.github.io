@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Safe from "react-safe";
 
 const externalProps = { target: "_blank", rel: "noopener" };
 
@@ -31,11 +32,6 @@ const MainSocial = () => (
       LinkedIn
     </ProfileButton>
 
-    {/* <ProfileButton href="https://twitter.com/barayuda" external>
-      <i className="fab fa-fw mr-1 fa-twitter"></i>
-      Twitter
-    </ProfileButton> */}
-
     <ProfileButton href="/resume">
       <i className="far fa-fw mr-1 fa-file-alt"></i>
       Resume
@@ -45,6 +41,10 @@ const MainSocial = () => (
       <i className="fab fa-fw mr-1 fa-blogger-b"></i>
       Blog (in Bahasa)
     </ProfileButton>
+
+    <div>
+      <Safe.script type="text/javascript" src="https://www.globalgiving.org/javascript/widget/widget.js">{`{'projectids': '49963'}`}</Safe.script>
+    </div>
   </div>
 );
 
