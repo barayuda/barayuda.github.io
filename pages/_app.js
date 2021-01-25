@@ -23,7 +23,7 @@ export default class CustomApp extends App {
           <meta property="og:title" content="Barayuda Gautama - Software Engineer" />
           <meta property="og:url" content="https://barayuda.web.id/" />
           <meta property="og:description" content="Mostly focused on Vue. Also a Laravel, React, and UX enthusiast." />
-          <meta property="og:image" content="/barayuda.png" />
+          <meta property="og:image" content="/barayuda.jpg" />
           <meta property="og:image:width" content="200" />
           <meta property="og:image:height" content="200" />
           <meta property="og:type" content="profile" />
