@@ -38,7 +38,7 @@ export default class CustomApp extends App {
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
             rel="stylesheet"
           ></link>
-          <script src="https://kit.fontawesome.com/81b62d1be5.js" async></script>
+          <script src="https://kit.fontawesome.com/5946abd67d.js" crossOrigin="anonymous" async></script>
         </Head>
 
         <Component {...pageProps} />

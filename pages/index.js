@@ -5,7 +5,7 @@ import MainSocial from "../components/profile/MainSocial";
 import Hr from "../components/profile/Hr";
 import Header from "../components/profile/Header";
 import Social from "../components/profile/Social";
-import BumiSehat from "../components/profile/BumiSehat";
+import BumiSehat from "../components/additonal/BumiSehat";
 import Projects from "../components/profile/Projects";
 import Blogs from "../components/blog/Blogs";
 

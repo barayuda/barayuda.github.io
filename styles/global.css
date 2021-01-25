@@ -83,3 +83,40 @@ hr {
   display: flex;
   flex-direction: column;
 }
+
+.bumisehat__wrapper {
+  background: #ffffff;
+  border: 1px solid #e19b2d;
+  clear: both;
+  font-family: 'Segoe UI', 'Tahoma', Geneva, Verdana, sans-serif;
+  max-width: 186px;
+  padding: .8rem ;
+  text-align: center;
+  width: 100%;
+  zoom: 1;
+}
+
+.bumisehat__title {
+  color: #DB8600;
+  font-size: .8rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.bumisehat__donate,
+.bumisehat__image,
+.bumisehat__title p {
+  margin: 0 0 .5rem;
+}
+
+.bumisehat__donate {
+  background-color: #DB8600;
+  color: #ffffff;
+  display: block;
+  font-size: .65rem;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  padding: .5rem .8rem;
+  text-transform: uppercase;
+}

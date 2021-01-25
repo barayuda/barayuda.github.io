@@ -10,7 +10,7 @@ function ProfileButton({ href, external, children }) {
 
       {external && (
         <div>
-          <i className="fas fa-external-link-alt"></i>
+          <i aria-hidden className="fas fa-external-link-alt"></i>
         </div>
       )}
     </a>
@@ -22,22 +22,22 @@ function ProfileButton({ href, external, children }) {
 const MainSocial = () => (
   <div className="grid gap-1">
     <ProfileButton href="https://github.com/barayuda" external>
-      <i className="fab fa-fw mr-1 fa-github"></i>
+      <i aria-hidden className="fab fa-fw mr-1 fa-github"></i>
       GitHub
     </ProfileButton>
 
     <ProfileButton href="https://linkedin.com/in/barayuda" external>
-      <i className="fab fa-fw mr-1 fa-linkedin"></i>
+      <i aria-hidden className="fab fa-fw mr-1 fa-linkedin"></i>
       LinkedIn
     </ProfileButton>
 
     <ProfileButton href="/resume">
-      <i className="far fa-fw mr-1 fa-file-alt"></i>
+      <i aria-hidden className="far fa-fw mr-1 fa-file-alt"></i>
       Resume
     </ProfileButton>
 
     <ProfileButton href="/blog">
-      <i className="fab fa-fw mr-1 fa-blogger-b"></i>
+      <i aria-hidden className="fab fa-fw mr-1 fa-blogger-b"></i>
       Blog (in Bahasa)
     </ProfileButton>
 

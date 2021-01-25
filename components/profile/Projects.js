@@ -3,7 +3,7 @@ import React from "react";
 import SectionTitle from "./SectionTitle";
 
 const Project = ({ children, name, href, icon }) => (
-  <p className="mb-2 md:mb-0">
+  <div className="mb-2 md:mb-0">
     <div className="inline-block">
       {icon}
       <a target="_blank" rel="noopener" href={href} className="link">
@@ -12,8 +12,8 @@ const Project = ({ children, name, href, icon }) => (
       ,&nbsp;
     </div>
 
-    <div className="inline-block">{children}.</div>
-  </p>
+    <div className="inline-block"><p>{children}.</p></div>
+  </div>
 );
 
 const Projects = () => (
