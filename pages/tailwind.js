@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import BackToHomepage from "../components/resume/BackToHomepage";
-import Header from "../components/resume/Header";
+import BackToHomepage from '../components/resume/BackToHomepage';
+import Header from '../components/resume/Header';
 
 function ResumePage() {
   return (
@@ -13,7 +13,10 @@ function ResumePage() {
           <h4 className="text-3xl">Hey,</h4>
 
           <p className="mt-5">
-            I think I would be a great fit for the Tailwind UI team 🙂
+            I think I would be a great fit for the Tailwind UI team{' '}
+            <span role="img" aria-label="smile">
+              🙂
+            </span>
             <br />
             I am a very well-rounded full-stack developer.
             <br />
@@ -27,23 +30,25 @@ function ResumePage() {
           <h4 className="text-3xl">How I got here</h4>
 
           <p className="mt-5">
-            I've known about Tailwind for a long time
+            I&#39;ve known about Tailwind for a long time
             <br />
             (since the very beginning I imagine 🤔)
             <br />
             because am a long-time listener of Full Stack Radio.
             <br />
-            <span className="small text-muted">Yeah, a bit of a fan 😅.</span>
+            <span className="small text-muted" aria-label="hehe" role="img">
+              Yeah, a bit of a fan 😅.
+            </span>
           </p>
 
           <p className="mt-5">
-            Unfortunately I didn't have the opportunity to use it in any project.
+            Unfortunately I didn&#39;t have the opportunity to use it in any project.
             <br />
             Until just recently.
           </p>
 
           <p className="mt-5">
-            Just a few weeks ago I've started remaking my personal page,
+            Just a few weeks ago I&#39;ve started remaking my personal page,
             <br />
             and it was the perfect opportunity to have
             <br />a try at some different stuff.
@@ -70,7 +75,7 @@ function ResumePage() {
             <br />
             I love working close to designers, UX, UI, and Product.
             <br />
-            I am really into Tailwind's approach to CSS and componentization.
+            I am really into Tailwind&#39;s approach to CSS and componentization.
             <br />
             I also have experience helping and teaching other devs,
             <br />
@@ -82,11 +87,12 @@ function ResumePage() {
           <h4 className="text-3xl">What I am excited about</h4>
 
           <p className="mt-5">
-            Interesting question, I've applied to Basecamp a couple months ago and they brought up a similar topic.
+            Interesting question, I&#39;ve applied to Basecamp a couple months ago and they brought
+            up a similar topic.
             <br />
-            On that occasion I've written about Tailwind.
+            On that occasion I&#39;ve written about Tailwind.
             <br />
-            But I think it wouldn't be very suitable here 😅.
+            But I think it wouldn&#39;t be very suitable here 😅.
           </p>
 
           <p className="mt-5">
@@ -112,7 +118,9 @@ function ResumePage() {
           <p className="mt-5">
             Having worked with Rails for a long time,
             <br />
-            <span className="small text-muted">Maybe I've got spoiled 😅</span>
+            <span className="small text-muted" role="img" aria-label="smile">
+              Maybe I&#39;ve got spoiled 😅
+            </span>
             <br />
             not having all-encompassing opinionated stuff
             <br />
@@ -156,7 +164,9 @@ function ResumePage() {
 
         <section className="text-left lg:mr-64">
           <p className="">
-            Hope to hear back from you 😉
+            <span role="img" aria-label="hope">
+              Hope to hear back from you 😉
+            </span>
             <br />
             <span className="text-muted">Evandro Sasse</span>
             <br />

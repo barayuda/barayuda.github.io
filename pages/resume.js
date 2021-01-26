@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import BackToHomepage from "../components/resume/BackToHomepage";
-import Header from "../components/resume/Header";
-import Professional from "../components/resume/Professional";
-import Education from "../components/resume/Education";
-import TechnicalSkills from "../components/resume/TechnicalSkills";
-import Language from "../components/resume/Language";
-import Interests from "../components/resume/Interests";
+import BackToHomepage from '../components/resume/BackToHomepage';
+import Education from '../components/resume/Education';
+import Header from '../components/resume/Header';
+import Interests from '../components/resume/Interests';
+import Language from '../components/resume/Language';
+import Professional from '../components/resume/Professional';
+import TechnicalSkills from '../components/resume/TechnicalSkills';
 
 function ResumePage() {
   return (

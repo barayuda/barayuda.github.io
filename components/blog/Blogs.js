@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import SectionTitle from "../profile/SectionTitle";
+import SectionTitle from '../profile/SectionTitle';
 
+// eslint-disable-next-line no-unused-vars
 const Blog = ({ children, name, href, icon }) => (
   <p className="mb-2 md:mb-0">
     <div className="inline-block">
       {icon}
-      <a target="_blank" rel="nofollow" href={href} className="link">
+      <a target="_blank" rel="noreferrer" href={href} className="link">
         {name}
       </a>
       ,&nbsp;
@@ -18,11 +19,14 @@ const Blog = ({ children, name, href, icon }) => (
 
 const Blogs = () => (
   <section>
-    <SectionTitle>Blog (in Bahasa)</SectionTitle>
+    <SectionTitle>Blog</SectionTitle>
 
     <p>
       <i className="fas fa-fw mr-1 fa-hourglass-half"></i>
-      Read more in <a href="/blog" className="link" rel="follow" target="_blank">My Blog</a>
+      Read more in{' '}
+      <a href="/blog" className="link" rel="noreferrer" target="_blank">
+        My Blog
+      </a>
     </p>
   </section>
 );

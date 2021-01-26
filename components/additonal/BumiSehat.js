@@ -1,6 +1,7 @@
-import React, { Fragment } from "react";
-import SectionTitle from "../profile/SectionTitle";
-import Link from "next/link"; 
+import Link from 'next/link';
+import React from 'react';
+
+import SectionTitle from '../profile/SectionTitle';
 
 const BumiSehat = () => (
   <section>
@@ -12,7 +13,9 @@ const BumiSehat = () => (
       <div className="bumisehat__image">
         <img src="/bumisehat.jpg" alt="Yayasan Bumi Sehat" />
       </div>
-      <Link href="https://www.globalgiving.org/projects/deliver-pandemic-maternal-health-care-in-bali/?rf=ggWidget" passHref={true}>
+      <Link
+        href="https://www.globalgiving.org/projects/deliver-pandemic-maternal-health-care-in-bali/?rf=ggWidget"
+        passHref={true}>
         <a className="bumisehat__donate">Donate Now</a>
       </Link>
       <div className="bumisehat__image">

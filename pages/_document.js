@@ -1,5 +1,5 @@
-import React from "react";
-import Document, { Html, Head, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from 'next/document';
+import React from 'react';
 
 class CustomDocument extends Document {
   static async getInitialProps(ctx) {
@@ -15,6 +15,10 @@ class CustomDocument extends Document {
         <body>
           <Main />
           <NextScript />
+          <script
+            src="https://kit.fontawesome.com/5946abd67d.js"
+            crossOrigin="anonymous"
+            async></script>
         </body>
       </Html>
     );

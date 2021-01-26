@@ -1,8 +1,8 @@
-import App from "next/app";
-import Head from "next/head";
-import React from "react";
+import '../styles/global.css';
 
-import "../styles/global.css";
+import App from 'next/app';
+import Head from 'next/head';
+import React from 'react';
 
 export default class CustomApp extends App {
   render() {
@@ -16,13 +16,19 @@ export default class CustomApp extends App {
           <meta name="theme-color" content="#000000" />
 
           <title>Barayuda Gautama - Software Engineer</title>
-          <meta name="description" content="Mostly focused on Vue. Also a Laravel, React, and UX enthusiast." />
+          <meta
+            name="description"
+            content="Mostly focused on Vue. Also a Laravel, React, and UX enthusiast."
+          />
           <link rel="canonical" href="https://barayuda.web.id/" />
           <meta name="robots" content="index, follow" />
 
           <meta property="og:title" content="Barayuda Gautama - Software Engineer" />
           <meta property="og:url" content="https://barayuda.web.id/" />
-          <meta property="og:description" content="Mostly focused on Vue. Also a Laravel, React, and UX enthusiast." />
+          <meta
+            property="og:description"
+            content="Mostly focused on Vue. Also a Laravel, React, and UX enthusiast."
+          />
           <meta property="og:image" content="/barayuda.jpg" />
           <meta property="og:image:width" content="200" />
           <meta property="og:image:height" content="200" />
@@ -36,9 +42,7 @@ export default class CustomApp extends App {
 
           <link
             href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet"
-          ></link>
-          <script src="https://kit.fontawesome.com/5946abd67d.js" crossOrigin="anonymous" async></script>
+            rel="stylesheet"></link>
         </Head>
 
         <Component {...pageProps} />

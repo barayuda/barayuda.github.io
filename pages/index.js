@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import Picture from "../components/profile/Picture";
-import MainSocial from "../components/profile/MainSocial";
-import Hr from "../components/profile/Hr";
-import Header from "../components/profile/Header";
-import Social from "../components/profile/Social";
-import BumiSehat from "../components/additonal/BumiSehat";
-import Projects from "../components/profile/Projects";
-import Blogs from "../components/blog/Blogs";
+import BumiSehat from '../components/additonal/BumiSehat';
+import Blogs from '../components/blog/Blogs';
+import Header from '../components/profile/Header';
+import Hr from '../components/profile/Hr';
+import MainSocial from '../components/profile/MainSocial';
+import Picture from '../components/profile/Picture';
+import Projects from '../components/profile/Projects';
+import Social from '../components/profile/Social';
 
 function HomePage() {
   return (
@@ -40,7 +40,6 @@ function HomePage() {
           <Hr />
 
           <BumiSehat />
-
         </div>
       </div>
     </main>

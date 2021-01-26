@@ -1,11 +1,14 @@
-import React, { Fragment } from "react";
-import Link from "next/link";
+import Link from 'next/link';
+import React from 'react';
 
-const externalProps = { target: "_blank", rel: "noopener" };
+const externalProps = { target: '_blank', rel: 'noopener' };
 
 function ProfileButton({ href, external, children }) {
   const link = (
-    <a href={href} className="btn btn-block btn-light flex justify-between" {...(external ? externalProps : {})}>
+    <a
+      href={href}
+      className="btn btn-block btn-light flex justify-between"
+      {...(external ? externalProps : {})}>
       <div>{children}</div>
 
       {external && (
@@ -38,9 +41,8 @@ const MainSocial = () => (
 
     <ProfileButton href="/blog">
       <i aria-hidden className="fab fa-fw mr-1 fa-blogger-b"></i>
-      Blog (in Bahasa)
+      Blog
     </ProfileButton>
-
   </div>
 );
 

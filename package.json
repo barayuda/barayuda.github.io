@@ -9,6 +9,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
+    "lint": "eslint --fix",
     "start": "next start",
     "static": "next build && next export && touch ./out/.nojekyll && echo 'barayuda.web.id' > ./out/CNAME",
     "serve-static": "serve out",
@@ -25,8 +26,10 @@
   "devDependencies": {
     "eslint": "^7.18.0",
     "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
     "gh-pages": "^2.2.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
@@ -48,7 +51,7 @@
       "eslint --fix"
     ],
     "*.{json,yml,yaml,md,scss,css}": [
-      "prettier --write"
+      "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
     ]
   }
 }

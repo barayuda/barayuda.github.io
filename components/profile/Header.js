@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import Headings from "./Headings";
+import Headings from './Headings';
 
 const Header = () => (
   <header>
@@ -13,7 +13,9 @@ const Header = () => (
         <i className="far fa-fw mr-2 fa-lightbulb text-orange-500"></i>
       </div>
 
-      <div className="inline-block"><p>Mostly focused on Laravel, Vue and Product.</p></div>
+      <div className="inline-block">
+        <p>Mostly focused on Laravel, Vue and Product.</p>
+      </div>
     </div>
 
     <div>
