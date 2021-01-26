@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Headings from './Headings';
+import Headings from "./Headings";
 
 const Header = () => (
   <header>

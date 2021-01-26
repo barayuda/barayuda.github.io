@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import SectionTitle from '../profile/SectionTitle';
+import SectionTitle from "../profile/SectionTitle";
 
 // eslint-disable-next-line no-unused-vars
 const Blog = ({ children, name, href, icon }) => (
@@ -23,7 +23,7 @@ const Blogs = () => (
 
     <p>
       <i className="fas fa-fw mr-1 fa-hourglass-half"></i>
-      Read more in{' '}
+      Read more in{" "}
       <a href="/blog" className="link" rel="noreferrer" target="_blank">
         My Blog
       </a>

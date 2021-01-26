@@ -1,14 +1,11 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
-const externalProps = { target: '_blank', rel: 'noopener' };
+const externalProps = { target: "_blank", rel: "noopener" };
 
 function ProfileButton({ href, external, children }) {
   const link = (
-    <a
-      href={href}
-      className="btn btn-block btn-light flex justify-between"
-      {...(external ? externalProps : {})}>
+    <a href={href} className="btn btn-block btn-light flex justify-between" {...(external ? externalProps : {})}>
       <div>{children}</div>
 
       {external && (

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Picture = () => (
   <div className="profile__image__wrapper">

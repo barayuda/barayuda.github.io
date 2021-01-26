@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-import BumiSehat from '../components/additonal/BumiSehat';
-import Blogs from '../components/blog/Blogs';
-import Header from '../components/profile/Header';
-import Hr from '../components/profile/Hr';
-import MainSocial from '../components/profile/MainSocial';
-import Picture from '../components/profile/Picture';
-import Projects from '../components/profile/Projects';
-import Social from '../components/profile/Social';
+import BumiSehat from "../components/additonal/BumiSehat";
+import Blogs from "../components/blog/Blogs";
+import Header from "../components/profile/Header";
+import Hr from "../components/profile/Hr";
+import MainSocial from "../components/profile/MainSocial";
+import Picture from "../components/profile/Picture";
+import Projects from "../components/profile/Projects";
+import Social from "../components/profile/Social";
 
 function HomePage() {
   return (

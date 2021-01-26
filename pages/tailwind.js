@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
-import BackToHomepage from '../components/resume/BackToHomepage';
-import Header from '../components/resume/Header';
+import BackToHomepage from "../components/resume/BackToHomepage";
+import Header from "../components/resume/Header";
 
 function ResumePage() {
   return (
@@ -13,7 +13,7 @@ function ResumePage() {
           <h4 className="text-3xl">Hey,</h4>
 
           <p className="mt-5">
-            I think I would be a great fit for the Tailwind UI team{' '}
+            I think I would be a great fit for the Tailwind UI team{" "}
             <span role="img" aria-label="smile">
               🙂
             </span>
@@ -87,8 +87,7 @@ function ResumePage() {
           <h4 className="text-3xl">What I am excited about</h4>
 
           <p className="mt-5">
-            Interesting question, I&#39;ve applied to Basecamp a couple months ago and they brought
-            up a similar topic.
+            Interesting question, I&#39;ve applied to Basecamp a couple months ago and they brought up a similar topic.
             <br />
             On that occasion I&#39;ve written about Tailwind.
             <br />

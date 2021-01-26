@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import { Skill, Skills } from './Skills';
+import { Skill, Skills } from "./Skills";
 
 const TechnicalSkills = () => (
   <Skills title="Skills">

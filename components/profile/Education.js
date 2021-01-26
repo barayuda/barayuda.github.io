@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const School = ({ children, href, name, detail }) => (
   <p className="mb-2 md:mb-0">

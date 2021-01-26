@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-import Headings from '../profile/Headings';
+import Headings from "../profile/Headings";
 
 const Header = ({ headings, site, github, linkedin, location, email }) => (
   <header className="text-right dont-page-break">
@@ -24,11 +24,7 @@ const Header = ({ headings, site, github, linkedin, location, email }) => (
 
     {linkedin && (
       <p className="text-base">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://linkedin.com/in/barayuda"
-          className="link">
+        <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/barayuda" className="link">
           linkedin.com/in/barayuda
         </a>
       </p>
@@ -47,7 +43,7 @@ Header.defaultProps = {
   linkedin: true,
   location: true,
   phone: true,
-  email: true
+  email: true,
 };
 
 export default Header;

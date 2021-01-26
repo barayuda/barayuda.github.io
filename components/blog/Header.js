@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Header = ({ headings, site }) => (
   <header className="text-right dont-page-break">
@@ -23,7 +23,7 @@ const Header = ({ headings, site }) => (
 
 Header.defaultProps = {
   headings: {},
-  site: true
+  site: true,
 };
 
 export default Header;
