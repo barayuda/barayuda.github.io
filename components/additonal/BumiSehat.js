@@ -11,15 +11,16 @@ const BumiSehat = () => (
         <p>Deliver Pandemic Maternal Health Care in Bali</p>
       </div>
       <div className="bumisehat__image">
-        <img src="/bumisehat.jpg" alt="Yayasan Bumi Sehat" />
+        <img src="/bumisehat.jpg" alt="Yayasan Bumi Sehat" width="100%" height="auto" />
       </div>
       <Link
         href="https://www.globalgiving.org/projects/deliver-pandemic-maternal-health-care-in-bali/?rf=ggWidget"
-        passHref={true}>
+        passHref={true}
+      >
         <a className="bumisehat__donate">Donate Now</a>
       </Link>
       <div className="bumisehat__image">
-        <img src="/powered_by_globalgiving.png" alt="Bumi Sehat - GlobalGiving.org" />
+        <img src="/powered_by_globalgiving.png" alt="Bumi Sehat - GlobalGiving.org" width="100%" height="auto" />
       </div>
     </div>
   </section>
