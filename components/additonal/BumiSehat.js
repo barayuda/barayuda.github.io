@@ -20,7 +20,7 @@ const BumiSehat = () => (
         <a className="bumisehat__donate">Donate Now</a>
       </Link>
       <div className="bumisehat__image">
-        <img src="/powered_by_globalgiving.png" alt="GlobalGiving.org" />
+        <img src="/powered_by_globalgiving.png" alt="Bumi Sehat - GlobalGiving.org" />
       </div>
     </div>
   </section>
