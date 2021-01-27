@@ -13,8 +13,12 @@ const Header = ({ headings, site }) => (
 
     {site && (
       <p className="text-base">
-        <a target="_blank" rel="noreferrer" href="https://blog.barayuda.web.id" className="link">
-          blog.barayuda.web.id
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.barayuda.web.id/blog"
+          className="link">
+          barayuda.web.id/blog
         </a>
       </p>
     )}
