@@ -16,7 +16,11 @@ const Social = () => (
 
       <p>
         <i className="fab fa-fw mr-1 fa-linkedin"></i>
-        <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/barayuda" className="link">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://linkedin.com/in/barayuda"
+          className="link">
           LinkedIn
         </a>
       </p>

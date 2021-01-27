@@ -15,7 +15,10 @@ class CustomDocument extends Document {
         <body>
           <Main />
           <NextScript />
-          <script src="https://kit.fontawesome.com/5946abd67d.js" crossOrigin="anonymous" async></script>
+          <script
+            src="https://kit.fontawesome.com/5946abd67d.js"
+            crossOrigin="anonymous"
+            async></script>
         </body>
       </Html>
     );

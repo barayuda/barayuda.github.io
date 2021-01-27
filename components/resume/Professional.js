@@ -27,8 +27,7 @@ const Professional = () => (
         href="https://dana.id/"
         title="Software Developer Engineer"
         where="Jakarta, Indonesia (Remote)"
-        when="Sept, 2019 - Present"
-      >
+        when="Sept, 2019 - Present">
         Joined in tech team, colaborate to build Indonesia Cashless Society.
       </Experience>
 
@@ -37,16 +36,15 @@ const Professional = () => (
         href="https://www.ogilvy.com.au/"
         title="Front-end Engineer"
         where="Bali, Indonesia (Remote Office)"
-        when="Jun, 2017 - Aug, 2019"
-      >
-        Australian branch of Ogilvy, A major global advertising company, clients including BMW, Cocacola, IBM, AMEX,
-        etc.
+        when="Jun, 2017 - Aug, 2019">
+        Australian branch of Ogilvy, A major global advertising company, clients including BMW,
+        Cocacola, IBM, AMEX, etc.
         <br />
         <br />
         <span style={{ textDecoration: "underline" }}>What I do:</span>
         <br />
-        • Software development for digital advertising campaign including Web Banner, landing page, interactive
-        advertising, etc (HTML5, CSS, GreenSock Javascript).
+        • Software development for digital advertising campaign including Web Banner, landing page,
+        interactive advertising, etc (HTML5, CSS, GreenSock Javascript).
         <br />
         • Build Banners Preview with PHP and Bootstrap 3<br />
         • EDM Templates (Build email HTML, working with Litmus environment)

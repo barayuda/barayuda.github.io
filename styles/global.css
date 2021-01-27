@@ -88,17 +88,17 @@ hr {
   background: #ffffff;
   border: 1px solid #e19b2d;
   clear: both;
-  font-family: 'Segoe UI', 'Tahoma', Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "Tahoma", Geneva, Verdana, sans-serif;
   max-width: 186px;
-  padding: .8rem ;
+  padding: 0.8rem;
   text-align: center;
   width: 100%;
   zoom: 1;
 }
 
 .bumisehat__title {
-  color: #DB8600;
-  font-size: .8rem;
+  color: #db8600;
+  font-size: 0.8rem;
   font-weight: bold;
   letter-spacing: 0;
   text-align: center;
@@ -107,16 +107,16 @@ hr {
 .bumisehat__donate,
 .bumisehat__image,
 .bumisehat__title p {
-  margin: 0 0 .5rem;
+  margin: 0 0 0.5rem;
 }
 
 .bumisehat__donate {
-  background-color: #DB8600;
+  background-color: #db8600;
   color: #ffffff;
   display: block;
-  font-size: .65rem;
+  font-size: 0.65rem;
   font-weight: bold;
-  letter-spacing: .1rem;
-  padding: .5rem .8rem;
+  letter-spacing: 0.1rem;
+  padding: 0.5rem 0.8rem;
   text-transform: uppercase;
 }

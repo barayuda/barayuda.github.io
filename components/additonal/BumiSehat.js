@@ -15,8 +15,7 @@ const BumiSehat = () => (
       </div>
       <Link
         href="https://www.globalgiving.org/projects/deliver-pandemic-maternal-health-care-in-bali/?rf=ggWidget"
-        passHref={true}
-      >
+        passHref={true}>
         <a className="bumisehat__donate">Donate Now</a>
       </Link>
       <div className="bumisehat__image">

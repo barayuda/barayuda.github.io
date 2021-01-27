@@ -24,7 +24,11 @@ const Header = ({ headings, site, github, linkedin, location, email }) => (
 
     {linkedin && (
       <p className="text-base">
-        <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/barayuda" className="link">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://linkedin.com/in/barayuda"
+          className="link">
           linkedin.com/in/barayuda
         </a>
       </p>

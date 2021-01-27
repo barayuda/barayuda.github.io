@@ -11,7 +11,9 @@ const Headings = ({ name, title, description }) => (
       </h2>
     )}
 
-    {description && <h3 className="text-base mb-5">Colaboration to fast deliveries with real value.</h3>}
+    {description && (
+      <h3 className="text-base mb-5">Colaboration to fast deliveries with real value.</h3>
+    )}
   </>
 );
 
