@@ -20,11 +20,14 @@ function BlogsPage({ posts }) {
               return (
                 <Posts
                   key={uuidv4()}
-                  publishDate={data.posts.publishDate}
-                  summary={data.posts.description}
-                  body={data.posts.body}
-                  image={data.posts.image.fields}
-                  title={data.posts.title}
+                  postAuthor={data.posts.author.fields}
+                  postBody={data.posts.body}
+                  postImage={data.posts.image.fields}
+                  postPublishDate={data.posts.publishDate}
+                  postSlug={data.posts.slug}
+                  postSummary={data.posts.description}
+                  postTags={data.posts.tags}
+                  postTitle={data.posts.title}
                 />
               );
             }
