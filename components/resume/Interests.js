@@ -6,7 +6,7 @@ const Interests = () => (
   <section className="dont-page-break">
     <SectionTitle>Other Interests</SectionTitle>
 
-    <ul className="list-disc list-outside">
+    <ul className="ml-5 list-disc list-outside">
       <li>Elixir, TypeScript, React Native, Electron</li>
       <li>Serverless, Docker, DevOps</li>
       <li>UX, Product Management</li>

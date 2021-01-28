@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
@@ -11,7 +12,7 @@ const BumiSehat = () => (
         <p>Deliver Pandemic Maternal Health Care in Bali</p>
       </div>
       <div className="bumisehat__image">
-        <img src="/bumisehat.jpg" alt="Yayasan Bumi Sehat" width="100%" height="auto" />
+        <Image src="/bumisehat.jpg" alt="Yayasan Bumi Sehat" width="158" height="103" />
       </div>
       <Link
         href="https://www.globalgiving.org/projects/deliver-pandemic-maternal-health-care-in-bali/?rf=ggWidget"
@@ -20,7 +21,7 @@ const BumiSehat = () => (
         <a className="bumisehat__donate">Donate Now</a>
       </Link>
       <div className="bumisehat__image">
-        <img src="/powered_by_globalgiving.png" alt="Bumi Sehat - GlobalGiving.org" width="100%" height="auto" />
+        <Image src="/powered_by_globalgiving.png" alt="Bumi Sehat - GlobalGiving.org" width="158" height="38" />
       </div>
     </div>
   </section>

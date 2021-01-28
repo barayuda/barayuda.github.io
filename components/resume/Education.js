@@ -29,24 +29,15 @@ const Education = () => (
   <section>
     <SectionTitle>Academic Education</SectionTitle>
 
-    <ul className="list-disc list-outside">
+    <ul className="ml-5 list-disc list-outside">
       <Degree title="Magister's Degree">
-        <School
-          name="Udayana University"
-          href="https://www.unud.ac.id"
-          where="Denpasar, Indonesia"
-          when="Currently">
+        <School name="Udayana University" href="https://www.unud.ac.id" where="Denpasar, Indonesia" when="Currently">
           Management of Information System and Computer
         </School>
       </Degree>
 
       <Degree title="Bachelor of Computer Science">
-        <School
-          name="STMIK STIKOM Indonesia"
-          href="#"
-          where="Denpasar, Indonesia"
-          when="2011 - 2015"
-        />
+        <School name="STMIK STIKOM Indonesia" href="#" where="Denpasar, Indonesia" when="2011 - 2015" />
       </Degree>
     </ul>
   </section>

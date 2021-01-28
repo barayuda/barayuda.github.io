@@ -22,6 +22,6 @@ export const Skills = ({ children, title }) => (
   <section className="dont-page-break">
     <SectionTitle>{title}</SectionTitle>
 
-    <ul className="list-disc list-outside">{children}</ul>
+    <ul className="ml-5 list-disc list-outside">{children}</ul>
   </section>
 );
