@@ -1,9 +1,8 @@
-import Image from "next/image";
 import React from "react";
 
 const Picture = () => (
   <div className="profile__image__wrapper">
-    <Image src="/barayuda-avatar.jpg" alt="Profile" className="rounded w-full" width="191" height="190" />
+    <img src="/barayuda-avatar.jpg" alt="Profile" className="rounded w-full" width="191" height="190" />
 
     <div className="profile__image__emojis">
       <span role="img" aria-label="rocket">
