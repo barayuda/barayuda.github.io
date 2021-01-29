@@ -2,18 +2,16 @@ import React from "react";
 
 const Headings = ({ name, title, description }) => (
   <>
-    {name && <h1 className="text-5xl font-bold leading-none tracking-tighter">Barayuda Gautama</h1>}
+    {name && <h1 className="text-3xl md:text-5xl font-bold leading-none tracking-tighter">Barayuda Gautama</h1>}
 
     {title && (
-      <h2 className="text-3xl font-medium text-gray-700">
+      <h2 className="text-sm md:text-3xl font-medium text-gray-700">
         <div className="inline-block">SDE,&nbsp;</div>
         <div className="inline-block">Software Development Engineer.</div>
       </h2>
     )}
 
-    {description && (
-      <h3 className="text-base mb-5">Colaboration to fast deliveries with real value.</h3>
-    )}
+    {description && <h3 className="text-xs md:text-base mb-5">Colaboration to fast deliveries with real value.</h3>}
   </>
 );
 

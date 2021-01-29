@@ -14,7 +14,7 @@ function Posts({ postAuthor, postImage, postPublishDate, postSummary, postTags, 
           <h2 className="text-xl md:text-3xl">{postTitle}</h2>
           <div className="text-gray-700">
             <span className="text-xs md:text-sm">
-              Posted by <strong>{postAuthor.name}</strong> at{" "}
+              Posted by <span className="font-semibold">{postAuthor.name}</span> at{" "}
               {dayjs(postPublishDate).format("dddd, MMMM D, YYYY h:mm A")}
             </span>
           </div>
